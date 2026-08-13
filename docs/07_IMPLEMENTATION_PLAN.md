@@ -72,3 +72,93 @@
 | Cache/PubSub | Redis |
 | Infra | Docker Compose (local), Render/Railway (backend), Vercel (frontend) |
 | CI | GitHub Actions |
+
+## 5. GitHub Repository Structure
+
+```
+rakshagrid/
+├── README.md                     # setup, run instructions, architecture diagram, demo GIF
+├── docs/                         # all 7 documentation files from this deliverable
+│   ├── 01_AI_DEVELOPMENT_MASTER_PROMPT.md
+│   ├── 02_PRD.md
+│   ├── 03_TRD.md
+│   ├── 04_APP_FLOW.md
+│   ├── 05_UI_UX_BRIEF.md
+│   ├── 06_BACKEND_SCHEMA.md
+│   └── 07_IMPLEMENTATION_PLAN.md
+├── docker-compose.yml
+├── .github/
+│   └── workflows/
+│       └── ci.yml                # lint + basic tests on push
+├── backend/
+│   ├── app/
+│   │   ├── main.py                # FastAPI entrypoint
+│   │   ├── api/
+│   │   │   ├── junctions.py
+│   │   │   ├── deployment.py
+│   │   │   ├── incidents.py
+│   │   │   └── websocket.py
+│   │   ├── core/
+│   │   │   ├── config.py
+│   │   │   └── security.py
+│   │   ├── models/                # SQLAlchemy models (per Backend Schema doc)
+│   │   ├── schemas/                # Pydantic request/response schemas
+│   │   ├── services/
+│   │   │   ├── scoring_engine.py
+│   │   │   ├── optimizer.py
+│   │   │   ├── explainability.py
+│   │   │   └── audit.py
+│   │   └── db/
+│   │       ├── session.py
+│   │       └── migrations/         # Alembic
+│   ├── tests/
+│   ├── requirements.txt
+│   └── Dockerfile
+├── ml/
+│   ├── data_generator/
+│   │   ├── junction_seed.py        # loads/curates Nagpur junction list
+│   │   ├── incident_simulator.py
+│   │   └── traffic_weather_sim.py
+│   ├── notebooks/                  # exploratory model tuning
+│   ├── risk_model/
+│   │   ├── weighted_model.py
+│   │   └── xgboost_model.py        # optional stretch
+│   └── allocation/
+│       └── assignment_solver.py
+├── frontend/
+│   ├── src/
+│   │   ├── main.tsx
+│   │   ├── App.tsx
+│   │   ├── components/
+│   │   │   ├── map/HeatMap.tsx
+│   │   │   ├── panels/RankedList.tsx
+│   │   │   ├── panels/DeploymentPanel.tsx
+│   │   │   ├── panels/IncidentConsole.tsx
+│   │   │   ├── panels/ComparisonView.tsx
+│   │   │   ├── drawers/JunctionDetail.tsx
+│   │   │   └── audit/AuditFeed.tsx
+│   │   ├── hooks/
+│   │   │   └── useLiveSocket.ts
+│   │   ├── lib/
+│   │   │   └── api.ts
+│   │   ├── store/                  # Zustand/Redux state
+│   │   └── styles/
+│   ├── index.html
+│   ├── package.json
+│   ├── tailwind.config.ts
+│   └── Dockerfile
+├── data/
+│   └── nagpur_junctions.csv        # curated seed dataset
+└── scripts/
+    ├── seed_db.py
+    └── demo_scenario.py            # deterministic scripted demo scenario
+```
+
+## 6. Submission Checklist
+- [ ] Public deployed URL (frontend + backend reachable)
+- [ ] GitHub repo public, README with one-command run instructions
+- [ ] All 7 docs in `/docs`
+- [ ] Backup demo video recorded
+- [ ] Scalability/cost/retrofit note included
+- [ ] Privacy/ethics note included
+- [ ] Team roles credited in README
