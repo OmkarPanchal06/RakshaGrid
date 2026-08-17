@@ -31,3 +31,17 @@ export const injectIncident = async (junctionId: string, type: string, severity:
   });
   return response.data;
 };
+
+export const fetchRecommendedDeployments = async () => {
+  const response = await axios.get(`${API_BASE}/deployment/recommended`);
+  return response.data;
+};
+
+export const overrideDeployment = async (junctionId: string, action: string, reason: string, officerId?: string) => {
+  const response = await axios.post(`${API_BASE}/deployment/${junctionId}/override`, {
+    action,
+    reason,
+    officer_id: officerId
+  });
+  return response.data;
+};
