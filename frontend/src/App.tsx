@@ -3,6 +3,7 @@ import { HeatMap } from './components/map/HeatMap';
 import { RankedList } from './components/panels/RankedList';
 import { DeploymentPanel } from './components/panels/DeploymentPanel';
 import { IncidentConsole } from './components/panels/IncidentConsole';
+import { ComparisonView } from './components/panels/ComparisonView';
 import { fetchJunctions, JunctionData } from './lib/api';
 import { ShieldAlert, Users } from 'lucide-react';
 import { useLiveSocket } from './hooks/useLiveSocket';
@@ -80,6 +81,7 @@ function App() {
         <main className="flex-1 p-6 flex gap-6 overflow-hidden">
           {/* Map Section */}
           <div className="flex-1 bg-[#141A22] rounded-lg border border-gray-800 overflow-hidden relative shadow-lg flex flex-col">
+             <ComparisonView />
              <HeatMap junctions={junctions} onJunctionClick={(id) => console.log('Clicked', id)} />
           </div>
           
