@@ -5,6 +5,7 @@ import { DeploymentPanel } from './components/panels/DeploymentPanel';
 import { IncidentConsole } from './components/panels/IncidentConsole';
 import { fetchJunctions, JunctionData } from './lib/api';
 import { ShieldAlert, Users } from 'lucide-react';
+import { useLiveSocket } from './hooks/useLiveSocket';
 
 function App() {
   const [junctions, setJunctions] = useState<JunctionData[]>([]);
@@ -20,9 +21,17 @@ function App() {
 
   useEffect(() => {
     loadData();
-    const interval = setInterval(loadData, 5000); // Poll every 5s for demo
-    return () => clearInterval(interval);
+    // Replaced 5s polling with real-time websocket
   }, [loadData]);
+
+  const { isConnected } = useLiveSocket(useCallback((update) => {
+    setJunctions(prev => prev.map(j => {
+      if (j.id === update.junction_id) {
+        return { ...j, score: update.score };
+      }
+      return j;
+    }));
+  }, []));
 
   const criticalCount = junctions.filter(j => j.score >= 80).length;
   const elevatedCount = junctions.filter(j => j.score >= 50 && j.score < 80).length;
