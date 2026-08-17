@@ -4,12 +4,16 @@ import { RankedList } from './components/panels/RankedList';
 import { DeploymentPanel } from './components/panels/DeploymentPanel';
 import { IncidentConsole } from './components/panels/IncidentConsole';
 import { ComparisonView } from './components/panels/ComparisonView';
+import { JunctionDetail } from './components/drawers/JunctionDetail';
+import { AuditLogDrawer } from './components/drawers/AuditLogDrawer';
 import { fetchJunctions, JunctionData } from './lib/api';
 import { ShieldAlert, Users } from 'lucide-react';
 import { useLiveSocket } from './hooks/useLiveSocket';
 
 function App() {
   const [junctions, setJunctions] = useState<JunctionData[]>([]);
+  const [selectedJunctionId, setSelectedJunctionId] = useState<string>('');
+  const [isAuditOpen, setIsAuditOpen] = useState(false);
 
   const loadData = useCallback(async () => {
     try {
@@ -38,17 +42,17 @@ function App() {
   const elevatedCount = junctions.filter(j => j.score >= 50 && j.score < 80).length;
 
   return (
-    <div className="flex h-screen bg-[#0B0F14] text-[#C9D1D9] font-sans">
+    <div className="flex h-screen bg-[#0B0F14] text-[#C9D1D9] font-sans overflow-hidden">
       {/* Sidebar */}
-      <div className="w-64 bg-[#141A22] p-4 border-r border-gray-800 flex flex-col">
+      <div className="w-64 bg-[#141A22] p-4 border-r border-gray-800 flex flex-col z-10">
         <div className="flex items-center space-x-3 mb-8">
           <ShieldAlert className="text-[#3D9DF6] w-8 h-8" />
           <h1 className="text-2xl font-bold text-white tracking-wide">RakshaGrid</h1>
         </div>
         <nav className="space-y-2 flex-1">
-          <a href="#" className="block py-2 px-4 rounded bg-gray-800 text-[#3D9DF6] border-l-2 border-[#3D9DF6]">Live Dashboard</a>
-          <a href="#" className="block py-2 px-4 rounded hover:bg-gray-800/50 transition-colors">Deployments</a>
-          <a href="#" className="block py-2 px-4 rounded hover:bg-gray-800/50 transition-colors">Audit Log</a>
+          <button className="w-full text-left py-2 px-4 rounded bg-gray-800 text-[#3D9DF6] border-l-2 border-[#3D9DF6]">Live Dashboard</button>
+          <button className="w-full text-left py-2 px-4 rounded hover:bg-gray-800/50 transition-colors">Deployments</button>
+          <button onClick={() => setIsAuditOpen(true)} className="w-full text-left py-2 px-4 rounded hover:bg-gray-800/50 transition-colors">Audit Log</button>
         </nav>
         <div className="text-xs text-gray-500 mt-auto">
           Logged in as: Control Room Op
@@ -56,10 +60,21 @@ function App() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col">
+      <div className="flex-1 flex flex-col z-0 relative">
         {/* Top Bar */}
         <header className="bg-[#141A22] p-4 border-b border-gray-800 flex justify-between items-center">
-          <h2 className="text-xl font-semibold text-white">Live Traffic Risk Map - Nagpur</h2>
+          <h2 className="text-xl font-semibold text-white flex items-center">
+            Live Traffic Risk Map - Nagpur
+            {isConnected ? (
+              <span className="ml-4 flex items-center text-xs text-green-500 bg-green-900/20 px-2 py-1 rounded">
+                <span className="w-2 h-2 rounded-full bg-green-500 mr-2 animate-pulse"></span> Live
+              </span>
+            ) : (
+              <span className="ml-4 flex items-center text-xs text-red-500 bg-red-900/20 px-2 py-1 rounded">
+                <span className="w-2 h-2 rounded-full bg-red-500 mr-2"></span> Offline
+              </span>
+            )}
+          </h2>
           <div className="flex items-center space-x-6">
             <div className="flex space-x-3">
               <span className="px-3 py-1 bg-red-900/30 text-red-400 border border-red-900/50 rounded-full text-sm font-medium flex items-center">
@@ -82,13 +97,13 @@ function App() {
           {/* Map Section */}
           <div className="flex-1 bg-[#141A22] rounded-lg border border-gray-800 overflow-hidden relative shadow-lg flex flex-col">
              <ComparisonView />
-             <HeatMap junctions={junctions} onJunctionClick={(id) => console.log('Clicked', id)} />
+             <HeatMap junctions={junctions} onJunctionClick={setSelectedJunctionId} />
           </div>
           
           {/* Middle Panel - Ranked List & Incident Console */}
           <div className="w-80 flex flex-col gap-6">
             <div className="flex-1 min-h-0">
-              <RankedList junctions={junctions} onJunctionClick={(id) => console.log('Clicked', id)} />
+              <RankedList junctions={junctions} onJunctionClick={setSelectedJunctionId} />
             </div>
             <div className="shrink-0">
               <IncidentConsole junctions={junctions} onIncidentInjected={loadData} />
@@ -100,6 +115,10 @@ function App() {
             <DeploymentPanel />
           </div>
         </main>
+        
+        {/* Drawers */}
+        <JunctionDetail junctionId={selectedJunctionId} onClose={() => setSelectedJunctionId('')} />
+        <AuditLogDrawer isOpen={isAuditOpen} onClose={() => setIsAuditOpen(false)} />
       </div>
     </div>
   );
