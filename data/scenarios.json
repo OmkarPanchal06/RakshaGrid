@@ -1,0 +1,66 @@
+[
+  {
+    "id": "sim-chhatrapati-crash",
+    "name": "Chhatrapati Sq Flyover Multi-Vehicle Crash",
+    "category": "ACCIDENT",
+    "severity": 5,
+    "targetJunctionId": "jct-chhatrapati",
+    "title": "Chhatrapati Sq Flyover Multi-Vehicle Crash",
+    "description": "Multi-car collision on flyover ascent blocking 2 lanes towards Ajni with heavy gridlock.",
+    "expectedRiskSurge": 25,
+    "recommendedAction": "Immediate Interceptor SUV & Heavy Towing Crane dispatch from Reserve Pool.",
+    "congestionDelta": 0.35,
+    "environmentalTriggers": {
+      "weather": "clear",
+      "timeWindow": "evening_peak"
+    }
+  },
+  {
+    "id": "sim-sitabuldi-flood",
+    "name": "Sitabuldi Metro Underpass Flash Flood",
+    "category": "WATERLOGGING",
+    "severity": 4,
+    "targetJunctionId": "jct-variety",
+    "title": "Sitabuldi Metro Underpass Flash Flood",
+    "description": "Sudden cloudburst waterlogging 2.5 ft deep at Variety Chowk underpass. Traffic diverted to Tekdi Rd.",
+    "expectedRiskSurge": 22,
+    "recommendedAction": "Deploy 2 Traffic marshals to seal underpass ramp and reroute via Wardha Rd.",
+    "congestionDelta": 0.3,
+    "environmentalTriggers": {
+      "weather": "heavy_rain",
+      "timeWindow": "evening_peak"
+    }
+  },
+  {
+    "id": "sim-wadi-tanker",
+    "name": "Wadi NH-53 Chemical Tanker Breakdown",
+    "category": "ROAD_BLOCK",
+    "severity": 4,
+    "targetJunctionId": "jct-wadi",
+    "title": "Wadi NH-53 Chemical Tanker Breakdown",
+    "description": "Heavy articulated container breakdown occupying inner lanes. Tailback reaching 3.5 km onto Amravati bypass.",
+    "expectedRiskSurge": 20,
+    "recommendedAction": "Authorize Highway Interceptor & Towing Crane to establish contra-flow corridor.",
+    "congestionDelta": 0.28,
+    "environmentalTriggers": {
+      "weather": "clear",
+      "timeWindow": "morning_peak"
+    }
+  },
+  {
+    "id": "sim-sakkardara-procession",
+    "name": "Sakkardara Festival Procession Surge",
+    "category": "CONGESTION_SURGE",
+    "severity": 3,
+    "targetJunctionId": "jct-sakkardara",
+    "title": "Sakkardara Festival Procession Surge",
+    "description": "Unscheduled religious procession with 5,000+ devotees converging on Sakkardara lake road.",
+    "expectedRiskSurge": 18,
+    "recommendedAction": "Redeploy Beat Patrols from Zone 3 reserve to establish manual pedestrian barricades.",
+    "congestionDelta": 0.25,
+    "environmentalTriggers": {
+      "weather": "clear",
+      "timeWindow": "evening_peak"
+    }
+  }
+]

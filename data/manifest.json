@@ -1,0 +1,30 @@
+{
+  "source": "RAKSHAGRID_REFERENCE_DATA.md",
+  "classification": "REFERENCE / DEMO / DUMMY / SIMULATED DATA",
+  "files": {
+    "junctions.json": {
+      "records": 32
+    },
+    "officers.json": {
+      "records": 18
+    },
+    "incidents.json": {
+      "records": 1
+    },
+    "scenarios.json": {
+      "records": 4
+    },
+    "baseline_comparison.json": {
+      "records": 3
+    },
+    "configuration.json": {
+      "records": 11
+    }
+  },
+  "notes": [
+    "The JSON records were extracted from the JSON blocks in the supplied MD.",
+    "hourlyTrends are preserved inside each junction record because that is how they appear in the source.",
+    "Configuration constants are copied from Section 9 of the supplied MD.",
+    "No new operational data was invented."
+  ]
+}

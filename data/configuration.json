@@ -1,0 +1,19 @@
+{
+  "WEIGHT_ACCIDENT": 0.2,
+  "WEIGHT_CONGESTION": 0.2,
+  "WEIGHT_VIOLATION": 0.15,
+  "WEIGHT_WEATHER": 0.15,
+  "WEIGHT_EVENT": 0.1,
+  "WEIGHT_INFRA": 0.1,
+  "WEIGHT_TIME": 0.1,
+  "LOW_RISK_THRESHOLD": 40,
+  "HIGH_RISK_THRESHOLD": 50,
+  "CRITICAL_THRESHOLD": 75,
+  "ZONE_LIST": [
+    "Zone 1 (North)",
+    "Zone 2 (South)",
+    "Zone 3 (East)",
+    "Zone 4 (West)",
+    "Zone 5 (Central)"
+  ]
+}

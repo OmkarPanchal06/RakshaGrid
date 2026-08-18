@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "jct-variety",
+    "name": "Variety Chowk (Sitabuldi)",
+    "marathiName": "व्हरायटी चौक (सीताबर्डी)",
+    "zone": "Zone 5 (Central)",
+    "lat": 21.1466,
+    "lng": 79.0825,
+    "baselineRisk": 78,
+    "historicalAccidents": 24,
+    "congestionIndex": 0.88,
+    "violationRateHourly": 42,
+    "floodProneMultiplier": 1.4,
+    "isNearActiveEvent": true,
+    "hasMetroWorkOrBlockage": true,
+    "isManned": true,
+    "assignedOfficerId": "off-01",
+    "assignedOfficerCallsign": "PATROL-01",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 68
+      },
+      {
+        "hour": "11:00",
+        "score": 72
+      },
+      {
+        "hour": "12:00",
+        "score": 75
+      },
+      {
+        "hour": "13:00",
+        "score": 74
+      },
+      {
+        "hour": "14:00",
+        "score": 70
+      },
+      {
+        "hour": "15:00",
+        "score": 76
+      },
+      {
+        "hour": "16:00",
+        "score": 82
+      }
+    ]
+  },
+  {
+    "id": "jct-chhatrapati",
+    "name": "Chhatrapati Square (Wardha Rd)",
+    "marathiName": "छत्रपती चौक (वर्धा रोड)",
+    "zone": "Zone 2 (South)",
+    "lat": 21.1098,
+    "lng": 79.0645,
+    "baselineRisk": 82,
+    "historicalAccidents": 29,
+    "congestionIndex": 0.92,
+    "violationRateHourly": 48,
+    "floodProneMultiplier": 1.1,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": true,
+    "isManned": true,
+    "assignedOfficerId": "off-02",
+    "assignedOfficerCallsign": "INTERCEPTOR-1",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 74
+      },
+      {
+        "hour": "11:00",
+        "score": 79
+      },
+      {
+        "hour": "12:00",
+        "score": 81
+      },
+      {
+        "hour": "13:00",
+        "score": 80
+      },
+      {
+        "hour": "14:00",
+        "score": 78
+      },
+      {
+        "hour": "15:00",
+        "score": 84
+      },
+      {
+        "hour": "16:00",
+        "score": 88
+      }
+    ]
+  },
+  {
+    "id": "jct-indora",
+    "name": "Indora Chowk (Kamptee Rd)",
+    "marathiName": "इंदोरा चौक (कामठी रोड)",
+    "zone": "Zone 1 (North)",
+    "lat": 21.1765,
+    "lng": 79.1024,
+    "baselineRisk": 74,
+    "historicalAccidents": 22,
+    "congestionIndex": 0.81,
+    "violationRateHourly": 39,
+    "floodProneMultiplier": 1.2,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": true,
+    "isManned": true,
+    "assignedOfficerId": "off-03",
+    "assignedOfficerCallsign": "PATROL-02",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 62
+      },
+      {
+        "hour": "11:00",
+        "score": 68
+      },
+      {
+        "hour": "12:00",
+        "score": 70
+      },
+      {
+        "hour": "13:00",
+        "score": 71
+      },
+      {
+        "hour": "14:00",
+        "score": 69
+      },
+      {
+        "hour": "15:00",
+        "score": 73
+      },
+      {
+        "hour": "16:00",
+        "score": 78
+      }
+    ]
+  },
+  {
+    "id": "jct-rahate",
+    "name": "Rahate Colony T-Point",
+    "marathiName": "रहाटे कॉलनी टी-पॉइंट",
+    "zone": "Zone 2 (South)",
+    "lat": 21.1274,
+    "lng": 79.0754,
+    "baselineRisk": 69,
+    "historicalAccidents": 18,
+    "congestionIndex": 0.76,
+    "violationRateHourly": 34,
+    "floodProneMultiplier": 1.5,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 58
+      },
+      {
+        "hour": "11:00",
+        "score": 62
+      },
+      {
+        "hour": "12:00",
+        "score": 65
+      },
+      {
+        "hour": "13:00",
+        "score": 64
+      },
+      {
+        "hour": "14:00",
+        "score": 60
+      },
+      {
+        "hour": "15:00",
+        "score": 68
+      },
+      {
+        "hour": "16:00",
+        "score": 72
+      }
+    ]
+  },
+  {
+    "id": "jct-shankar-nagar",
+    "name": "Shankar Nagar Square",
+    "marathiName": "शंकर नगर चौक",
+    "zone": "Zone 4 (West)",
+    "lat": 21.1348,
+    "lng": 79.0578,
+    "baselineRisk": 66,
+    "historicalAccidents": 16,
+    "congestionIndex": 0.74,
+    "violationRateHourly": 31,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": true,
+    "assignedOfficerId": "off-04",
+    "assignedOfficerCallsign": "PATROL-03",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 54
+      },
+      {
+        "hour": "11:00",
+        "score": 59
+      },
+      {
+        "hour": "12:00",
+        "score": 62
+      },
+      {
+        "hour": "13:00",
+        "score": 60
+      },
+      {
+        "hour": "14:00",
+        "score": 58
+      },
+      {
+        "hour": "15:00",
+        "score": 64
+      },
+      {
+        "hour": "16:00",
+        "score": 69
+      }
+    ]
+  },
+  {
+    "id": "jct-law-college",
+    "name": "Law College Square (Amravati Rd)",
+    "marathiName": "लॉ कॉलेज चौक",
+    "zone": "Zone 4 (West)",
+    "lat": 21.1442,
+    "lng": 79.0528,
+    "baselineRisk": 62,
+    "historicalAccidents": 14,
+    "congestionIndex": 0.68,
+    "violationRateHourly": 28,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 50
+      },
+      {
+        "hour": "11:00",
+        "score": 55
+      },
+      {
+        "hour": "12:00",
+        "score": 58
+      },
+      {
+        "hour": "13:00",
+        "score": 56
+      },
+      {
+        "hour": "14:00",
+        "score": 52
+      },
+      {
+        "hour": "15:00",
+        "score": 60
+      },
+      {
+        "hour": "16:00",
+        "score": 65
+      }
+    ]
+  },
+  {
+    "id": "jct-manewada",
+    "name": "Manewada Square (Ring Rd)",
+    "marathiName": "मानेवाडा चौक (रिंग रोड)",
+    "zone": "Zone 2 (South)",
+    "lat": 21.1022,
+    "lng": 79.0988,
+    "baselineRisk": 75,
+    "historicalAccidents": 26,
+    "congestionIndex": 0.83,
+    "violationRateHourly": 44,
+    "floodProneMultiplier": 1.3,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 64
+      },
+      {
+        "hour": "11:00",
+        "score": 70
+      },
+      {
+        "hour": "12:00",
+        "score": 72
+      },
+      {
+        "hour": "13:00",
+        "score": 70
+      },
+      {
+        "hour": "14:00",
+        "score": 68
+      },
+      {
+        "hour": "15:00",
+        "score": 74
+      },
+      {
+        "hour": "16:00",
+        "score": 80
+      }
+    ]
+  },
+  {
+    "id": "jct-sakkardara",
+    "name": "Sakkardara Square",
+    "marathiName": "सक्करदरा चौक",
+    "zone": "Zone 3 (East)",
+    "lat": 21.1215,
+    "lng": 79.1124,
+    "baselineRisk": 71,
+    "historicalAccidents": 20,
+    "congestionIndex": 0.79,
+    "violationRateHourly": 38,
+    "floodProneMultiplier": 1.2,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": true,
+    "assignedOfficerId": "off-05",
+    "assignedOfficerCallsign": "PATROL-04",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 60
+      },
+      {
+        "hour": "11:00",
+        "score": 65
+      },
+      {
+        "hour": "12:00",
+        "score": 68
+      },
+      {
+        "hour": "13:00",
+        "score": 66
+      },
+      {
+        "hour": "14:00",
+        "score": 62
+      },
+      {
+        "hour": "15:00",
+        "score": 70
+      },
+      {
+        "hour": "16:00",
+        "score": 75
+      }
+    ]
+  },
+  {
+    "id": "jct-medical",
+    "name": "Medical Square (GMC Hub)",
+    "marathiName": "मेडिकल चौक",
+    "zone": "Zone 2 (South)",
+    "lat": 21.1312,
+    "lng": 79.0965,
+    "baselineRisk": 73,
+    "historicalAccidents": 19,
+    "congestionIndex": 0.85,
+    "violationRateHourly": 36,
+    "floodProneMultiplier": 1.1,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": true,
+    "assignedOfficerId": "off-06",
+    "assignedOfficerCallsign": "PATROL-05",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 65
+      },
+      {
+        "hour": "11:00",
+        "score": 71
+      },
+      {
+        "hour": "12:00",
+        "score": 74
+      },
+      {
+        "hour": "13:00",
+        "score": 73
+      },
+      {
+        "hour": "14:00",
+        "score": 70
+      },
+      {
+        "hour": "15:00",
+        "score": 76
+      },
+      {
+        "hour": "16:00",
+        "score": 81
+      }
+    ]
+  },
+  {
+    "id": "jct-cotton-market",
+    "name": "Cotton Market Square (Railway Sub-hub)",
+    "marathiName": "कॉटन मार्केट चौक",
+    "zone": "Zone 5 (Central)",
+    "lat": 21.1488,
+    "lng": 79.0912,
+    "baselineRisk": 77,
+    "historicalAccidents": 23,
+    "congestionIndex": 0.89,
+    "violationRateHourly": 46,
+    "floodProneMultiplier": 1.3,
+    "isNearActiveEvent": true,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 69
+      },
+      {
+        "hour": "11:00",
+        "score": 75
+      },
+      {
+        "hour": "12:00",
+        "score": 78
+      },
+      {
+        "hour": "13:00",
+        "score": 76
+      },
+      {
+        "hour": "14:00",
+        "score": 72
+      },
+      {
+        "hour": "15:00",
+        "score": 80
+      },
+      {
+        "hour": "16:00",
+        "score": 84
+      }
+    ]
+  },
+  {
+    "id": "jct-lic",
+    "name": "LIC Square (Residency Rd)",
+    "marathiName": "एलआयसी चौक",
+    "zone": "Zone 5 (Central)",
+    "lat": 21.1555,
+    "lng": 79.0812,
+    "baselineRisk": 58,
+    "historicalAccidents": 11,
+    "congestionIndex": 0.62,
+    "violationRateHourly": 24,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": true,
+    "assignedOfficerId": "off-07",
+    "assignedOfficerCallsign": "PATROL-06",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 46
+      },
+      {
+        "hour": "11:00",
+        "score": 51
+      },
+      {
+        "hour": "12:00",
+        "score": 54
+      },
+      {
+        "hour": "13:00",
+        "score": 52
+      },
+      {
+        "hour": "14:00",
+        "score": 48
+      },
+      {
+        "hour": "15:00",
+        "score": 56
+      },
+      {
+        "hour": "16:00",
+        "score": 61
+      }
+    ]
+  },
+  {
+    "id": "jct-khamla",
+    "name": "Khamla Square",
+    "marathiName": "खामला चौक",
+    "zone": "Zone 2 (South)",
+    "lat": 21.1165,
+    "lng": 79.0588,
+    "baselineRisk": 63,
+    "historicalAccidents": 15,
+    "congestionIndex": 0.69,
+    "violationRateHourly": 29,
+    "floodProneMultiplier": 1.1,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 52
+      },
+      {
+        "hour": "11:00",
+        "score": 57
+      },
+      {
+        "hour": "12:00",
+        "score": 60
+      },
+      {
+        "hour": "13:00",
+        "score": 58
+      },
+      {
+        "hour": "14:00",
+        "score": 54
+      },
+      {
+        "hour": "15:00",
+        "score": 61
+      },
+      {
+        "hour": "16:00",
+        "score": 66
+      }
+    ]
+  },
+  {
+    "id": "jct-trimurti-nagar",
+    "name": "Trimurti Nagar Square (Ring Rd)",
+    "marathiName": "त्रिमूर्ती नगर चौक",
+    "zone": "Zone 4 (West)",
+    "lat": 21.1188,
+    "lng": 79.0435,
+    "baselineRisk": 65,
+    "historicalAccidents": 17,
+    "congestionIndex": 0.72,
+    "violationRateHourly": 32,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": true,
+    "assignedOfficerId": "off-08",
+    "assignedOfficerCallsign": "PATROL-07",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 55
+      },
+      {
+        "hour": "11:00",
+        "score": 60
+      },
+      {
+        "hour": "12:00",
+        "score": 63
+      },
+      {
+        "hour": "13:00",
+        "score": 61
+      },
+      {
+        "hour": "14:00",
+        "score": 58
+      },
+      {
+        "hour": "15:00",
+        "score": 64
+      },
+      {
+        "hour": "16:00",
+        "score": 68
+      }
+    ]
+  },
+  {
+    "id": "jct-narendra-nagar",
+    "name": "Narendra Nagar Bridge T-Point",
+    "marathiName": "नरेंद्र नगर ब्रिज",
+    "zone": "Zone 2 (South)",
+    "lat": 21.1055,
+    "lng": 79.0788,
+    "baselineRisk": 76,
+    "historicalAccidents": 25,
+    "congestionIndex": 0.86,
+    "violationRateHourly": 43,
+    "floodProneMultiplier": 1.6,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": true,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 66
+      },
+      {
+        "hour": "11:00",
+        "score": 72
+      },
+      {
+        "hour": "12:00",
+        "score": 75
+      },
+      {
+        "hour": "13:00",
+        "score": 73
+      },
+      {
+        "hour": "14:00",
+        "score": 70
+      },
+      {
+        "hour": "15:00",
+        "score": 78
+      },
+      {
+        "hour": "16:00",
+        "score": 83
+      }
+    ]
+  },
+  {
+    "id": "jct-dharampeth",
+    "name": "Dharampeth Coffee House Chowk",
+    "marathiName": "धरमपेठ चौक",
+    "zone": "Zone 4 (West)",
+    "lat": 21.1412,
+    "lng": 79.0665,
+    "baselineRisk": 54,
+    "historicalAccidents": 9,
+    "congestionIndex": 0.58,
+    "violationRateHourly": 21,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": true,
+    "assignedOfficerId": "off-09",
+    "assignedOfficerCallsign": "PATROL-08",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 42
+      },
+      {
+        "hour": "11:00",
+        "score": 47
+      },
+      {
+        "hour": "12:00",
+        "score": 50
+      },
+      {
+        "hour": "13:00",
+        "score": 48
+      },
+      {
+        "hour": "14:00",
+        "score": 44
+      },
+      {
+        "hour": "15:00",
+        "score": 52
+      },
+      {
+        "hour": "16:00",
+        "score": 57
+      }
+    ]
+  },
+  {
+    "id": "jct-ravi-nagar",
+    "name": "Ravi Nagar Square",
+    "marathiName": "रवी नगर चौक",
+    "zone": "Zone 4 (West)",
+    "lat": 21.1512,
+    "lng": 79.0565,
+    "baselineRisk": 48,
+    "historicalAccidents": 7,
+    "congestionIndex": 0.51,
+    "violationRateHourly": 17,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": true,
+    "assignedOfficerId": "off-10",
+    "assignedOfficerCallsign": "PATROL-09",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 38
+      },
+      {
+        "hour": "11:00",
+        "score": 42
+      },
+      {
+        "hour": "12:00",
+        "score": 45
+      },
+      {
+        "hour": "13:00",
+        "score": 43
+      },
+      {
+        "hour": "14:00",
+        "score": 40
+      },
+      {
+        "hour": "15:00",
+        "score": 47
+      },
+      {
+        "hour": "16:00",
+        "score": 51
+      }
+    ]
+  },
+  {
+    "id": "jct-wadi",
+    "name": "Wadi Naka (NH-53 Gateway)",
+    "marathiName": "वाडी नाका (हायवे)",
+    "zone": "Zone 4 (West)",
+    "lat": 21.1525,
+    "lng": 79.0125,
+    "baselineRisk": 79,
+    "historicalAccidents": 31,
+    "congestionIndex": 0.87,
+    "violationRateHourly": 49,
+    "floodProneMultiplier": 1.1,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": true,
+    "assignedOfficerId": "off-11",
+    "assignedOfficerCallsign": "INTERCEPTOR-2",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 71
+      },
+      {
+        "hour": "11:00",
+        "score": 76
+      },
+      {
+        "hour": "12:00",
+        "score": 79
+      },
+      {
+        "hour": "13:00",
+        "score": 77
+      },
+      {
+        "hour": "14:00",
+        "score": 74
+      },
+      {
+        "hour": "15:00",
+        "score": 82
+      },
+      {
+        "hour": "16:00",
+        "score": 86
+      }
+    ]
+  },
+  {
+    "id": "jct-hingna-t-point",
+    "name": "Hingna T-Point (MIDC Corridor)",
+    "marathiName": "हिंगणा टी-पॉइंट",
+    "zone": "Zone 4 (West)",
+    "lat": 21.1235,
+    "lng": 79.0225,
+    "baselineRisk": 67,
+    "historicalAccidents": 18,
+    "congestionIndex": 0.75,
+    "violationRateHourly": 33,
+    "floodProneMultiplier": 1.2,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 56
+      },
+      {
+        "hour": "11:00",
+        "score": 61
+      },
+      {
+        "hour": "12:00",
+        "score": 64
+      },
+      {
+        "hour": "13:00",
+        "score": 63
+      },
+      {
+        "hour": "14:00",
+        "score": 59
+      },
+      {
+        "hour": "15:00",
+        "score": 66
+      },
+      {
+        "hour": "16:00",
+        "score": 71
+      }
+    ]
+  },
+  {
+    "id": "jct-automotive",
+    "name": "Automotive Square (Kamptee Outer)",
+    "marathiName": "ऑटोमोटिव्ह चौक",
+    "zone": "Zone 1 (North)",
+    "lat": 21.1925,
+    "lng": 79.1145,
+    "baselineRisk": 72,
+    "historicalAccidents": 24,
+    "congestionIndex": 0.8,
+    "violationRateHourly": 41,
+    "floodProneMultiplier": 1.1,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": true,
+    "assignedOfficerId": "off-12",
+    "assignedOfficerCallsign": "PATROL-10",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 61
+      },
+      {
+        "hour": "11:00",
+        "score": 66
+      },
+      {
+        "hour": "12:00",
+        "score": 69
+      },
+      {
+        "hour": "13:00",
+        "score": 67
+      },
+      {
+        "hour": "14:00",
+        "score": 64
+      },
+      {
+        "hour": "15:00",
+        "score": 71
+      },
+      {
+        "hour": "16:00",
+        "score": 76
+      }
+    ]
+  },
+  {
+    "id": "jct-kadbi-chowk",
+    "name": "Kadbi Chowk",
+    "marathiName": "कडबी चौक",
+    "zone": "Zone 1 (North)",
+    "lat": 21.1645,
+    "lng": 79.0912,
+    "baselineRisk": 64,
+    "historicalAccidents": 15,
+    "congestionIndex": 0.71,
+    "violationRateHourly": 30,
+    "floodProneMultiplier": 1.2,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 53
+      },
+      {
+        "hour": "11:00",
+        "score": 58
+      },
+      {
+        "hour": "12:00",
+        "score": 61
+      },
+      {
+        "hour": "13:00",
+        "score": 59
+      },
+      {
+        "hour": "14:00",
+        "score": 55
+      },
+      {
+        "hour": "15:00",
+        "score": 63
+      },
+      {
+        "hour": "16:00",
+        "score": 67
+      }
+    ]
+  },
+  {
+    "id": "jct-pardi",
+    "name": "Pardi Naka / HB Town Square",
+    "marathiName": "पारडी नाका",
+    "zone": "Zone 3 (East)",
+    "lat": 21.1445,
+    "lng": 79.1512,
+    "baselineRisk": 80,
+    "historicalAccidents": 28,
+    "congestionIndex": 0.91,
+    "violationRateHourly": 47,
+    "floodProneMultiplier": 1.3,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": true,
+    "isManned": true,
+    "assignedOfficerId": "off-13",
+    "assignedOfficerCallsign": "PATROL-11",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 72
+      },
+      {
+        "hour": "11:00",
+        "score": 77
+      },
+      {
+        "hour": "12:00",
+        "score": 80
+      },
+      {
+        "hour": "13:00",
+        "score": 79
+      },
+      {
+        "hour": "14:00",
+        "score": 76
+      },
+      {
+        "hour": "15:00",
+        "score": 83
+      },
+      {
+        "hour": "16:00",
+        "score": 87
+      }
+    ]
+  },
+  {
+    "id": "jct-telephone-exchange",
+    "name": "Telephone Exchange Square (CA Rd)",
+    "marathiName": "टेलिफोन एक्सचेंज चौक",
+    "zone": "Zone 3 (East)",
+    "lat": 21.1488,
+    "lng": 79.1245,
+    "baselineRisk": 70,
+    "historicalAccidents": 19,
+    "congestionIndex": 0.78,
+    "violationRateHourly": 37,
+    "floodProneMultiplier": 1.2,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 59
+      },
+      {
+        "hour": "11:00",
+        "score": 64
+      },
+      {
+        "hour": "12:00",
+        "score": 67
+      },
+      {
+        "hour": "13:00",
+        "score": 65
+      },
+      {
+        "hour": "14:00",
+        "score": 61
+      },
+      {
+        "hour": "15:00",
+        "score": 69
+      },
+      {
+        "hour": "16:00",
+        "score": 74
+      }
+    ]
+  },
+  {
+    "id": "jct-mahal",
+    "name": "Mahal Gandhi Gate",
+    "marathiName": "गांधी गेट (महाल)",
+    "zone": "Zone 5 (Central)",
+    "lat": 21.1425,
+    "lng": 79.1045,
+    "baselineRisk": 68,
+    "historicalAccidents": 16,
+    "congestionIndex": 0.82,
+    "violationRateHourly": 35,
+    "floodProneMultiplier": 1.1,
+    "isNearActiveEvent": true,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": true,
+    "assignedOfficerId": "off-14",
+    "assignedOfficerCallsign": "PATROL-12",
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 58
+      },
+      {
+        "hour": "11:00",
+        "score": 63
+      },
+      {
+        "hour": "12:00",
+        "score": 66
+      },
+      {
+        "hour": "13:00",
+        "score": 65
+      },
+      {
+        "hour": "14:00",
+        "score": 62
+      },
+      {
+        "hour": "15:00",
+        "score": 69
+      },
+      {
+        "hour": "16:00",
+        "score": 73
+      }
+    ]
+  },
+  {
+    "id": "jct-sadar",
+    "name": "Sadar Residency Road (Mount Rd)",
+    "marathiName": "सदर रेसिडेन्सी रोड",
+    "zone": "Zone 5 (Central)",
+    "lat": 21.1612,
+    "lng": 79.0835,
+    "baselineRisk": 56,
+    "historicalAccidents": 10,
+    "congestionIndex": 0.6,
+    "violationRateHourly": 23,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 44
+      },
+      {
+        "hour": "11:00",
+        "score": 49
+      },
+      {
+        "hour": "12:00",
+        "score": 52
+      },
+      {
+        "hour": "13:00",
+        "score": 50
+      },
+      {
+        "hour": "14:00",
+        "score": 46
+      },
+      {
+        "hour": "15:00",
+        "score": 54
+      },
+      {
+        "hour": "16:00",
+        "score": 59
+      }
+    ]
+  },
+  {
+    "id": "jct-besa",
+    "name": "Besa T-Point (Outer Ring Rd)",
+    "marathiName": "बेसा टी-पॉइंट",
+    "zone": "Zone 2 (South)",
+    "lat": 21.0888,
+    "lng": 79.0888,
+    "baselineRisk": 61,
+    "historicalAccidents": 13,
+    "congestionIndex": 0.66,
+    "violationRateHourly": 27,
+    "floodProneMultiplier": 1.1,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 49
+      },
+      {
+        "hour": "11:00",
+        "score": 54
+      },
+      {
+        "hour": "12:00",
+        "score": 57
+      },
+      {
+        "hour": "13:00",
+        "score": 55
+      },
+      {
+        "hour": "14:00",
+        "score": 51
+      },
+      {
+        "hour": "15:00",
+        "score": 59
+      },
+      {
+        "hour": "16:00",
+        "score": 64
+      }
+    ]
+  },
+  {
+    "id": "jct-koradi-naka",
+    "name": "Koradi Naka (Thermal Power Rd)",
+    "marathiName": "कोराडी नाका",
+    "zone": "Zone 1 (North)",
+    "lat": 21.2145,
+    "lng": 79.0988,
+    "baselineRisk": 67,
+    "historicalAccidents": 17,
+    "congestionIndex": 0.73,
+    "violationRateHourly": 33,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 55
+      },
+      {
+        "hour": "11:00",
+        "score": 60
+      },
+      {
+        "hour": "12:00",
+        "score": 63
+      },
+      {
+        "hour": "13:00",
+        "score": 62
+      },
+      {
+        "hour": "14:00",
+        "score": 58
+      },
+      {
+        "hour": "15:00",
+        "score": 65
+      },
+      {
+        "hour": "16:00",
+        "score": 70
+      }
+    ]
+  },
+  {
+    "id": "jct-mankapur",
+    "name": "Mankapur Stadium Chowk (Ring Rd)",
+    "marathiName": "मानकापूर चौक",
+    "zone": "Zone 1 (North)",
+    "lat": 21.1855,
+    "lng": 79.0765,
+    "baselineRisk": 59,
+    "historicalAccidents": 12,
+    "congestionIndex": 0.63,
+    "violationRateHourly": 25,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 47
+      },
+      {
+        "hour": "11:00",
+        "score": 52
+      },
+      {
+        "hour": "12:00",
+        "score": 55
+      },
+      {
+        "hour": "13:00",
+        "score": 53
+      },
+      {
+        "hour": "14:00",
+        "score": 49
+      },
+      {
+        "hour": "15:00",
+        "score": 57
+      },
+      {
+        "hour": "16:00",
+        "score": 62
+      }
+    ]
+  },
+  {
+    "id": "jct-somalwada",
+    "name": "Somalwada Square (Airport Road)",
+    "marathiName": "सोमलवाडा चौक (विमानतळ रोड)",
+    "zone": "Zone 2 (South)",
+    "lat": 21.0965,
+    "lng": 79.0612,
+    "baselineRisk": 71,
+    "historicalAccidents": 21,
+    "congestionIndex": 0.81,
+    "violationRateHourly": 39,
+    "floodProneMultiplier": 1.1,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 60
+      },
+      {
+        "hour": "11:00",
+        "score": 65
+      },
+      {
+        "hour": "12:00",
+        "score": 68
+      },
+      {
+        "hour": "13:00",
+        "score": 67
+      },
+      {
+        "hour": "14:00",
+        "score": 63
+      },
+      {
+        "hour": "15:00",
+        "score": 70
+      },
+      {
+        "hour": "16:00",
+        "score": 75
+      }
+    ]
+  },
+  {
+    "id": "jct-itwari",
+    "name": "Itwari Shahid Chowk",
+    "marathiName": "इतवारी शहीद चौक",
+    "zone": "Zone 3 (East)",
+    "lat": 21.1522,
+    "lng": 79.1112,
+    "baselineRisk": 73,
+    "historicalAccidents": 18,
+    "congestionIndex": 0.88,
+    "violationRateHourly": 43,
+    "floodProneMultiplier": 1.2,
+    "isNearActiveEvent": true,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 63
+      },
+      {
+        "hour": "11:00",
+        "score": 69
+      },
+      {
+        "hour": "12:00",
+        "score": 72
+      },
+      {
+        "hour": "13:00",
+        "score": 71
+      },
+      {
+        "hour": "14:00",
+        "score": 67
+      },
+      {
+        "hour": "15:00",
+        "score": 75
+      },
+      {
+        "hour": "16:00",
+        "score": 80
+      }
+    ]
+  },
+  {
+    "id": "jct-seminary-hills",
+    "name": "Seminary Hills TV Tower T-Point",
+    "marathiName": "सेमिनरी हिल्स टी-पॉइंट",
+    "zone": "Zone 4 (West)",
+    "lat": 21.1612,
+    "lng": 79.0512,
+    "baselineRisk": 38,
+    "historicalAccidents": 4,
+    "congestionIndex": 0.38,
+    "violationRateHourly": 11,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 28
+      },
+      {
+        "hour": "11:00",
+        "score": 32
+      },
+      {
+        "hour": "12:00",
+        "score": 35
+      },
+      {
+        "hour": "13:00",
+        "score": 33
+      },
+      {
+        "hour": "14:00",
+        "score": 30
+      },
+      {
+        "hour": "15:00",
+        "score": 37
+      },
+      {
+        "hour": "16:00",
+        "score": 41
+      }
+    ]
+  },
+  {
+    "id": "jct-vnit",
+    "name": "VNIT Gate / Bajaj Nagar Square",
+    "marathiName": "व्हीएनआयटी गेट / बजाज नगर",
+    "zone": "Zone 4 (West)",
+    "lat": 21.1278,
+    "lng": 79.0522,
+    "baselineRisk": 52,
+    "historicalAccidents": 8,
+    "congestionIndex": 0.55,
+    "violationRateHourly": 19,
+    "floodProneMultiplier": 1.0,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 40
+      },
+      {
+        "hour": "11:00",
+        "score": 45
+      },
+      {
+        "hour": "12:00",
+        "score": 48
+      },
+      {
+        "hour": "13:00",
+        "score": 46
+      },
+      {
+        "hour": "14:00",
+        "score": 42
+      },
+      {
+        "hour": "15:00",
+        "score": 50
+      },
+      {
+        "hour": "16:00",
+        "score": 55
+      }
+    ]
+  },
+  {
+    "id": "jct-kalamna",
+    "name": "Kalamna Market Yard Square",
+    "marathiName": "कळमना मार्केट यार्ड",
+    "zone": "Zone 3 (East)",
+    "lat": 21.1712,
+    "lng": 79.1412,
+    "baselineRisk": 76,
+    "historicalAccidents": 25,
+    "congestionIndex": 0.85,
+    "violationRateHourly": 44,
+    "floodProneMultiplier": 1.2,
+    "isNearActiveEvent": false,
+    "hasMetroWorkOrBlockage": false,
+    "isManned": false,
+    "assignedOfficerId": null,
+    "assignedOfficerCallsign": null,
+    "hourlyTrends": [
+      {
+        "hour": "10:00",
+        "score": 65
+      },
+      {
+        "hour": "11:00",
+        "score": 71
+      },
+      {
+        "hour": "12:00",
+        "score": 74
+      },
+      {
+        "hour": "13:00",
+        "score": 72
+      },
+      {
+        "hour": "14:00",
+        "score": 68
+      },
+      {
+        "hour": "15:00",
+        "score": 77
+      },
+      {
+        "hour": "16:00",
+        "score": 82
+      }
+    ]
+  }
+]

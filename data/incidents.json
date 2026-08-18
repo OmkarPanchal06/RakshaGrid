@@ -1,0 +1,16 @@
+[
+  {
+    "id": "inc-seed-01",
+    "junctionId": "jct-chhatrapati",
+    "junctionName": "Chhatrapati Square (Wardha Rd)",
+    "title": "Multi-Vehicle Collision on Wardha Rd Flyover Ascent",
+    "description": "3-car pileup blocking north-bound lane towards Ajni. Heavy tailback extending towards Airport road.",
+    "category": "ACCIDENT",
+    "severity": 5,
+    "lat": 21.1098,
+    "lng": 79.0645,
+    "reportedAt": "2026-08-17T08:15:00.000Z",
+    "status": "active",
+    "assignedOfficerId": "off-02"
+  }
+]

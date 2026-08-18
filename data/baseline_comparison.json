@@ -1,0 +1,46 @@
+{
+  "baseline": {
+    "name": "Manual Static Beats (Legacy)",
+    "unmannedHighRisk": 8,
+    "avgResponseTimeMin": 14.8,
+    "corridorProtectionPct": 42.0,
+    "officerUtilizationPct": 58.0
+  },
+  "optimized": {
+    "name": "RakshaGrid AI Optimization",
+    "unmannedHighRisk": 2,
+    "avgResponseTimeMin": 4.6,
+    "corridorProtectionPct": 85.7,
+    "officerUtilizationPct": 88.9
+  },
+  "metrics": [
+    {
+      "metric": "Unmanned High-Risk Chowks",
+      "baseline": 8,
+      "optimized": 2,
+      "unit": "chowks",
+      "betterDirection": "lower"
+    },
+    {
+      "metric": "Mean Arrival ETA",
+      "baseline": 14.8,
+      "optimized": 4.6,
+      "unit": "min",
+      "betterDirection": "lower"
+    },
+    {
+      "metric": "High-Risk Corridor Coverage",
+      "baseline": 42.0,
+      "optimized": 85.7,
+      "unit": "%",
+      "betterDirection": "higher"
+    },
+    {
+      "metric": "Patrol Force Utilization",
+      "baseline": 58.0,
+      "optimized": 88.9,
+      "unit": "%",
+      "betterDirection": "higher"
+    }
+  ]
+}
